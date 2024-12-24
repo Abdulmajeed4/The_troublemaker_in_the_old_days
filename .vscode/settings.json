@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "The troublemaker in the old days.sln"
+    "dotnet.defaultSolution": "The_troublemaker_in_the_old_days.sln"
 }
