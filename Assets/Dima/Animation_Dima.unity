@@ -467,7 +467,7 @@ PrefabInstance:
     - target: {fileID: 4233242672954515107, guid: f552533a66ad67d4381685cf5d4d4536,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.0000000073532704
+      value: -0.0000000073532718
       objectReference: {fileID: 0}
     - target: {fileID: 4233242672954515107, guid: f552533a66ad67d4381685cf5d4d4536,
         type: 3}
@@ -477,7 +477,7 @@ PrefabInstance:
     - target: {fileID: 4233242672954515107, guid: f552533a66ad67d4381685cf5d4d4536,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.1682232
+      value: 0.16822323
       objectReference: {fileID: 0}
     - target: {fileID: 4796254947060235155, guid: f552533a66ad67d4381685cf5d4d4536,
         type: 3}
@@ -924,7 +924,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1232493561}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae3a5548b7c6bcf4a8538582b76cedad, type: 3}
   m_Name: 
@@ -1299,9 +1299,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 2106939509}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d31bea589021c18409238e8e7c2ccc0d, type: 3}
+  m_Script: {fileID: 11500000, guid: 75e8c05fb2e3047bdb20258b4e40d88c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  movementSpeed: 10
+  lookatspeed: 5
 --- !u!95 &2106939513
 Animator:
   serializedVersion: 5
@@ -1311,7 +1313,7 @@ Animator:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2106939509}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
+  m_Avatar: {fileID: 9000000, guid: 7fa1f9e8c2e4188478cbd5a152ce790e, type: 3}
   m_Controller: {fileID: 9100000, guid: 99a3500688890f04c8d4b51b93c8c550, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
