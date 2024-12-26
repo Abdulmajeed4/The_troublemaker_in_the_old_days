@@ -6,6 +6,27 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Dima/Animation_Dima.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Dima/Scenes/Main_Ui.unity
+    guid: 1cd2dbe5f4bd2cc4d8df8834b28c12d1
+  - enabled: 1
+    path: Assets/Dima/Scenes/Main_GamePlay.unity
+    guid: d11326a0121fb2d43b5560589ff746b3
+  - enabled: 1
+    path: Assets/Dima/Scenes/Win_Scene.unity
+    guid: 0263d204cc79bfd479fe76ed6261fe32
+  - enabled: 1
+    path: Assets/Dima/Scenes/PreLosing.unity
+    guid: 203bbf880ba832444a6385529b8aab9d
+  - enabled: 1
+    path: Assets/Dima/Scenes/Lose_Scene.unity
+    guid: 011c9b684659aeb4ebe5a02c09414657
+  - enabled: 1
+    path: Assets/Dima/Scenes/Story_Scene1.unity
+    guid: 2e54bab13de38ff45a318deeab9c04b7
+  - enabled: 1
+    path: Assets/Dima/Scenes/Story_Scene2.unity
+    guid: 98b15bad94cd3bd468c6102bd35a79be
+  - enabled: 1
+    path: Assets/Dima/Scenes/Story_Scene3.unity
+    guid: 2c0d221739d95274db7b20f4cdefde47
   m_configObjects: {}
